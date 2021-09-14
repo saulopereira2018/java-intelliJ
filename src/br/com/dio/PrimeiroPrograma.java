@@ -9,9 +9,15 @@ public class PrimeiroPrograma {
         System.out.println("Teste de Java IntelliJ: " + (a+b));*/
         Gato gato = new Gato();
         System.out.println(gato);
+    }
+    class Livro{
+        private String nome;
+        private Integer numPaginas;
 
-
-
+        public Livro(String nome, Integer numPaginas){
+            this.nome = nome;
+            this.numPaginas = numPaginas;
+        }
     }
     
 }
